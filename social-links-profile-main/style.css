@@ -1,0 +1,57 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+  line-height: 15px;
+  padding-bottom: 150px;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+
+}
+.container {
+  position: relative;
+  margin: auto;
+  width: 380px;
+  height: 630px;
+  top: 100px;
+  bottom: 200px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 15px;
+}
+.image {
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  border-radius: 50%;
+}
+h1 {
+  text-align: center;
+  padding-top: 170px;
+  font-weight: 400;
+  font-size: xx-large;
+}
+h2 {
+  text-align: center;
+  font-size: large;
+  color: yellowgreen;
+}
+p {
+  text-align: center;
+  line-height: 50px;
+}
+button {
+  width: 300px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  margin-bottom: 17px;
+}
+.GitHub,
+.frontendmentor,
+.LinkedIn,
+.Twitter,
+.Instagram {
+  text-align: center;
+}
