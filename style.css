@@ -1,7 +1,6 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing:border-box;
 }
 body {
   background-color: hsl(0, 0%, 8%);
@@ -10,7 +9,7 @@ body {
   margin-top: -50px;
   font-size: 14px;
   font-family: "Inter", sans-serif;
-  height: fit-content;
+  height: 100vh;
 
 }
 .container {
@@ -36,6 +35,7 @@ h1 {
   padding-top: 170px;
   font-weight: 400;
   font-size: xx-large;
+  margin-bottom: 20px;
 }
 h2 {
   text-align: center;
